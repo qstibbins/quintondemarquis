@@ -1,35 +1,22 @@
-import { useState } from 'react'
-// import reactLogo from '../assets/react.svg'
-// import viteLogo from '../assets/vite.svg'    
-// import '../App.css'
+import React from 'react';
 
-function Home() {
-  const [count, setCount] = useState(0)
-
+export default function Home() {
   return (
-    <>
-      <div>
-        {/* <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <section id="home" className="text-center py-32 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg my-12">
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+        Software Engineer | Data Analyst | Systems Consultant
+      </h2>
+      <p className="text-lg mb-10 text-gray-700 max-w-2xl mx-auto">
+        Building software, solving data problems, and helping businesses run better.
       </p>
-    </>
-  )
+      <div className="flex justify-center space-x-6">
+        <button className="px-8 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
+          View My Work
+        </button>
+        <button className="px-8 py-3 bg-gray-800 text-white rounded-lg shadow hover:bg-gray-900 transition">
+          Work With Me
+        </button>
+      </div>
+    </section>
+  );
 }
-
-export default Home
