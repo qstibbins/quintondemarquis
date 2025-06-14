@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/quintondemarquis/static/css/main.d1b3c961.css",
+    "main.js": "/quintondemarquis/static/js/main.41d3c4df.js",
+    "static/media/me.jpg": "/quintondemarquis/static/media/me.4a837224268ea03405ae.jpg",
+    "index.html": "/quintondemarquis/index.html",
+    "main.d1b3c961.css.map": "/quintondemarquis/static/css/main.d1b3c961.css.map",
+    "main.41d3c4df.js.map": "/quintondemarquis/static/js/main.41d3c4df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1b3c961.css",
+    "static/js/main.41d3c4df.js"
+  ]
+}
