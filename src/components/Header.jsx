@@ -8,6 +8,7 @@ export default function Header() {
         <nav className="flex space-x-6 text-sm font-medium">
           <a href="#home" className="hover:text-blue-600 transition">Home</a>
           <a href="#about" className="hover:text-blue-600 transition">About</a>
+          <a href="#skills" className="hover:text-blue-600 transition">Skills</a>
           <a href="#portfolio" className="hover:text-blue-600 transition">Portfolio</a>
           <a href="#services" className="hover:text-blue-600 transition">Services</a>
           <a href="#contact" className="hover:text-blue-600 transition">Contact</a>
